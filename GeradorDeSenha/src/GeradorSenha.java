@@ -1,7 +1,7 @@
 import java.util.Random;
 
 abstract class GeradorSenha {
-    protected int tamanhoSenha;
+    private int tamanhoSenha;
 
     public GeradorSenha(int tamanhoSenha) {
         this.tamanhoSenha = tamanhoSenha;
